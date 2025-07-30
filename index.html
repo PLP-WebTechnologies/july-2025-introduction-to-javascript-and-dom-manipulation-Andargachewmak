@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎓 JavaScript Fundamentals Assignment</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>User Info & Greeting</h2>
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button id="greetBtn">Greet Me</button>
+      <p id="greetingMessage"></p>
+    </section>
+
+    <section>
+      <h2>📈 Price Calculator</h2>
+      <input type="number" id="price" placeholder="Enter price" />
+      <input type="number" id="qty" placeholder="Enter quantity" />
+      <button onclick="calculateTotal()">Calculate Total</button>
+      <p id="totalOutput"></p>
+    </section>
+
+    <section>
+      <h2>🔁 Loop Generator</h2>
+      <button onclick="showNumbers()">Show Numbers (1–5)</button>
+      <button onclick="showCountdown()">Countdown (5–1)</button>
+      <ul id="loopOutput"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Student</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
